@@ -1,5 +1,5 @@
 # React 3D Weather App
-📌 Features
+📌 Features\
     .Check the weather of different cites by Entering their names in search panel.\
     .Use of animated Flat icons to make it more user friendly.\
     .Uses Live Location for current weather Data.\
