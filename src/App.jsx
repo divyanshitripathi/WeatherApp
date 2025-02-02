@@ -14,6 +14,7 @@ export default function App() {
   const [city, setCity] = useState("lucknow");
   const [weatherData, setWeatherData] = useState("");
   const currentDate = moment()._d;
+  console.log({ currentDate });
   const months = [
     "January",
     "February",
@@ -29,7 +30,8 @@ export default function App() {
     "December",
   ];
   const currentMonth = months[currentDate.getMonth()];
-  const currentDay = currentDate.getDay();
+  const currentDay = moment().format("DD");
+  console.log({ currentDay });
   const currentYear = currentDate.getFullYear();
 
   const formattedDate = `${currentMonth} ${currentDay},    ${currentYear}`;
