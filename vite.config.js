@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/WeatherApp/",
   server: {
     cors: true,
     host: true, // Allows external access
